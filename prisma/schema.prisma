@@ -16,7 +16,7 @@ model User {
   email     String
   password  String
   createdAt DateTime  @default(now())
-  updateAt  DateTime?
+  updatedAt DateTime?
   isAdmin   Boolean
 
   @@map("users")
